@@ -1,0 +1,110 @@
+
+.card {
+  position: relative;
+  width: 31.25em;
+
+
+  border-radius: 23px;
+  background: #000;
+  color: #fff;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  display: flex;
+
+}
+
+.avatar {
+    width: 8.8125rem;
+    height: 8.8125rem;
+  position: absolute;
+  top: -9%;
+  left: -3%;
+  border-radius: 50%;
+  background: #F45928;
+
+}
+
+.leftsection{
+    width: 50%;
+    padding-top: 120px;
+    line-height: 2px;
+}
+
+.name{
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.p{
+   
+    font-size: 0.75rem;
+text-wrap:wrap;
+line-height: 20px;
+}
+
+.rightsection{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 0 6px;
+    border-left: 2px solid white;
+}
+
+.social{
+    display: flex;
+    gap: 3vw;
+}
+
+.followers{
+    opacity: 0.6;
+    margin-left: 2px;
+}
+
+
+.repoHeading{
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+.repoName{
+    color: #0969DA;
+}
+
+.repoDescription{
+    opacity: 0.6;
+    font-size: 0.75em;
+    font-weight: 0.5em;
+    text-align: left;
+    word-spacing: 0;
+}
+
+@media (max-width: 622px) {
+    .card{
+        width: 17em;
+        margin-top: 3.125em;
+
+        flex-wrap: wrap;
+        
+    }
+
+    .leftsection{
+        width: 100%;
+    }
+
+    .rightsection{
+        border-left: none;
+        border-top: 2px solid white;
+    }
+
+    .avatar{
+        /* top: -25%; */
+        left: 25%;
+    }
+}
